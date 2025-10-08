@@ -1,17 +1,24 @@
-body{
+body {
   background-color: plum;
+  background-image: url(sparkels.jpeg);
 }
-.btn{
+
+.btn {
   color: blanchedalmond;
   display: flex;
   justify-content: space-around;
 }
-.text{
+
+.text {
   background-color: black;
-  color:plum;
-  align-items:center;
-  padding:20px;
+  color: plum;
+  align-items: center;
+  padding: 20px;
 }
-.everything{
+
+.everything {
   text-align: center;
+}
+h1,h2,h3 {
+ color: plum;
 }
