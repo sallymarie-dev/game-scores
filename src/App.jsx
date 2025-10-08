@@ -48,7 +48,7 @@ function App() {
           <button type="button" className="btn btn-danger" onClick={startOver}>Reset Score</button>
           <button type="button" className="btn btn-danger" onClick={losePoints}>Take points</button>
         </div>
-        <div>Score: {score}</div>
+        <div><h3>Score:{score}</h3></div>
       </div>
     </>
   )
