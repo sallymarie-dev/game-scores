@@ -1,9 +1,15 @@
 body{
-  background-color: chartreuse;
+  background-color: plum;
 }
 .btn{
-  color: chartreuse;
+  color: blanchedalmond;
 }
-.title{
-  background-color: aqua;
+.text{
+  background-color: black;
+  color:plum;
+  align-items:center;
+  padding:20px;
+}
+.everything{
+  text-align: center;
 }

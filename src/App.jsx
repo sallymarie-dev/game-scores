@@ -15,17 +15,22 @@ function App() {
   function threePoints() {
     setScore(score + 3)
   }
-  function resetScore() {
+  function startOver() {
     setScore(0)
   }
   return (
     <>
-      <h1 className="title">Game Scores<br></br>{score}</h1>
+    <div className=
+    "everything
+    ">
+      <h1 className="text">Game Scores<br></br>{score}</h1>
       <div>
         <button type="button" className="btn btn-danger" onClick={freeThrows}>Free Throws</button>
         <button type="button" className="btn btn-danger" onClick={twoPoints}>Two Points</button>
         <button type="button" className="btn btn-danger" onClick={threePoints}>Three Points </button>
-        <button type="button" className="btn btn-danger" onClick={resetScore}>Reset Score</button>
+        <button type="button" className="btn btn-danger" onClick={startOver}>Reset Score</button>
+      </div>
+      <div>Score: {score}</div>
       </div>
     </>
   )
