@@ -3,6 +3,8 @@ body{
 }
 .btn{
   color: blanchedalmond;
+  display: flex;
+  justify-content: space-around;
 }
 .text{
   background-color: black;
