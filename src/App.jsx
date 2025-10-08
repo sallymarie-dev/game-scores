@@ -18,8 +18,8 @@ function App() {
   function startOver() {
     setScore(0)
   }
-  function losePoints (){
-  setScore(score -1)
+  function losePoints() {
+    setScore(score - 1)
   }
 
   let winner;
@@ -30,7 +30,7 @@ function App() {
     winner = <h3>Sprinkle More sparkles to win!</h3>
   }
   let loser;
-  if (score < -1) {
+  if (score < -5) {
     loser = <h2>Sprinkle More sparkles to win!</h2>
   }
   else {
