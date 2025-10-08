@@ -19,7 +19,7 @@ function App() {
     setScore(0)
   }
   function losePoints() {
-    setScore(score - 1)
+    setScore(score - 5)
   }
 
   let winner;
